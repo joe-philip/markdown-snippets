@@ -1,1 +1,112 @@
-{}
+{
+    "Heading 1": {
+        "prefix": "h1",
+        "body": "# $0",
+        "description": "Create Heading 1"
+    },
+    "Heading 2": {
+        "prefix": "h2",
+        "body": "## $0",
+        "description": "Create Heading 2"
+    },
+    "Heading 3": {
+        "prefix": "h3",
+        "body": "### $0",
+        "description": "Create Heading 3"
+    },
+    "Heading 4": {
+        "prefix": "h4",
+        "body": "#### $0",
+        "description": "Create Heading 4"
+    },
+    "Heading 5": {
+        "prefix": "h5",
+        "body": "##### $0",
+        "description": "Create Heading 5"
+    },
+    "Heading 6": {
+        "prefix": "h6",
+        "body": "###### $0",
+        "description": "Create Heading 6"
+    },
+    "Bold text": {
+        "prefix": [
+            "bold",
+            "b"
+        ],
+        "body": "**$0**",
+        "description": "Write bold text"
+    },
+    "Italic text": {
+        "prefix": [
+            "italic",
+            "i"
+        ],
+        "body": "*$0*",
+        "description": "Write italic text"
+    },
+    "Blockquote": {
+        "prefix": "blockquote",
+        "body": "< $0",
+        "description": "Add a blockquote in Markdown."
+    },
+    "Ordered list": {
+        "prefix": [
+            "1. ",
+            "list",
+            "ol"
+        ],
+        "body": "1. $0",
+        "description": "Start an ordered list"
+    },
+    "Unordered list": {
+        "prefix": [
+            "list",
+            "ul"
+        ],
+        "body": "- $0",
+        "description": "Start an unordered list"
+    },
+    "Code": {
+        "prefix": "code",
+        "body": "`$0`",
+        "description": "Add code section"
+    },
+    "Code block": {
+        "prefix": "code-block",
+        "body": "```$1\n$0\n```",
+        "description": "Add code block section"
+    },
+    "Horizontal rule": {
+        "prefix": [
+            "hr",
+            "horizontal-rule"
+        ],
+        "body": "---",
+        "description": "Add a horizontal rule/line"
+    },
+    "Link": {
+        "prefix": [
+            "a",
+            "link"
+        ],
+        "body": "[${1:title}](${2|http://,https://, |}$3)",
+        "description": "Add a link"
+    },
+    "Image": {
+        "prefix": [
+            "img",
+            "image"
+        ],
+        "body": "![${1:alt text}](${2:image url})",
+        "description": "Add an image"
+    },
+    "Table": {
+        "prefix": "table",
+        "body": [
+            "| ${1:Heading} |",
+            "| ----------- |",
+            "| ${2:Value} |"
+        ]
+    }
+}
