@@ -1,9 +1,11 @@
 {
-  "name": "markdown-snippets",
+  "name": "markdown-code-snippets",
   "displayName": "markdown_snippets",
   "activationEvents": [
     "onLanguage:markdown"
   ],
+  "publisher": "JoePhilip",
+  "preview": true,
   "main": "./main.js",
   "repository": {
     "type": "git",
