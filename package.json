@@ -1,10 +1,24 @@
 {
   "name": "markdown-snippets",
   "displayName": "markdown_snippets",
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joe-philip/markdown-snippets"
+  },
+  "pricing": "Free",
   "description": "",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
+  },
+  "author": {
+    "email": "joe.philip@hotmail.co.in",
+    "name": "Joe Philip",
+    "url": "https://joe-philip.github.io"
   },
   "categories": [
     "Snippets"
