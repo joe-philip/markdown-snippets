@@ -108,5 +108,33 @@
             "| ----------- |",
             "| ${2:Value} |"
         ]
+    },
+    "Definition list": {
+        "prefix": [
+            "dl",
+            "definition list",
+            "list"
+        ],
+        "body": "${1:term}\n: ${2:definition}",
+        "description": "Create a definition list"
+    },
+    "Strikethrough": {
+        "prefix": "strikethrough",
+        "body": "~~${0:text}~~",
+        "description": "Write text with strikethrough effect."
+    },
+    "Checkbox checked": {
+        "prefix": [
+            "checkbox",
+            "checked"
+        ],
+        "body": "[x] $0"
+    },
+    "Checkbox unchecked": {
+        "prefix": [
+            "checkbox",
+            "unchecked"
+        ],
+        "body": "[ ] $0"
     }
 }
