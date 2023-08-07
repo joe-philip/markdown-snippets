@@ -4,7 +4,7 @@
   "activationEvents": [
     "onLanguage:markdown"
   ],
-  "main": "main.js",
+  "main": "./main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/joe-philip/markdown-snippets"
