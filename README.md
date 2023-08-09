@@ -46,6 +46,7 @@ Usage
 | strikethrough | Write text with strikethrough effect. |
 | checkbox, checked | Creates a checked check box |
 | checkbox, unchecked | Creates a unchecked check box |
+| Emoji | Adds an emoji |
 
 Feedback and Contributions
 
