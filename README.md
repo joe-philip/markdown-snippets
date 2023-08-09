@@ -21,6 +21,31 @@ Usage
     Open a Markdown document in Visual Studio Code.
     Start typing one of the snippet triggers (e.g., h1, ul, code).
     Select the desired snippet from the IntelliSense suggestions or press Enter to insert the snippet.
+    Snippet trigger commands are as follows:
+    
+| Prefix | Description |
+| ----------- | ----------- |
+| h1 | Create Heading 1 |
+| h2 | Create Heading 2 |
+| h3 | Create Heading 3 |
+| h4 | Create Heading 4 |
+| h5 | Create Heading 5 |
+| h6 | Create Heading 6 |
+| bold, b | Write bold text |
+| italic, i | Write italic text |
+| blockquote | Add a blockquote in Markdown. |
+| 1. , list, ol | Start an ordered list |
+| list, ul | Start an unordered list |
+| code | Add code section |
+| code-block | Add code block section |
+| hr, horizontal-rule | Add a horizontal rule/line |
+| a, link | Add a link |
+| img, image | Add an image |
+| table | Creates a single column table |
+| dl, definition list, list | Create a definition list |
+| strikethrough | Write text with strikethrough effect. |
+| checkbox, checked | Creates a checked check box |
+| checkbox, unchecked | Creates a unchecked check box |
 
 Feedback and Contributions
 

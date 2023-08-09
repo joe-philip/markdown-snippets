@@ -107,7 +107,8 @@
             "| ${1:Heading} |",
             "| ----------- |",
             "| ${2:Value} |"
-        ]
+        ],
+        "description": "Creates a single column table"
     },
     "Definition list": {
         "prefix": [
@@ -128,13 +129,15 @@
             "checkbox",
             "checked"
         ],
-        "body": "[x] $0"
+        "body": "[x] $0",
+        "description": "Creates a checked check box"
     },
     "Checkbox unchecked": {
         "prefix": [
             "checkbox",
             "unchecked"
         ],
-        "body": "[ ] $0"
+        "body": "[ ] $0",
+        "description": "Creates a unchecked check box"
     }
 }
