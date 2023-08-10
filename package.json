@@ -1,6 +1,7 @@
 {
   "name": "markdown-code-snippets",
   "displayName": "Basic markdown snippets",
+  "icon": "icon.png",
   "publisher": "JoePhilip",
   "preview": false,
   "repository": {
@@ -9,7 +10,7 @@
   },
   "pricing": "Free",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.80.0"
   },
